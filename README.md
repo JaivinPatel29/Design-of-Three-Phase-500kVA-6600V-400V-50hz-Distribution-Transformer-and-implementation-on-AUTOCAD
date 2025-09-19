@@ -1,0 +1,2 @@
+# Design-of-Three-Phase-500kVA-6600V-400V-50hz-Distribution-Transformer-and-implementation-on-AUTOCAD
+This project focuses on the theoretical and mechanical design of a three-phase 500 kVA distribution transformer (6600V/400V, 50 Hz). The work involves detailed manual calculations for the core, HV/LV windings, and tank design, followed by the schematic and physical layout implementation in AutoCAD. 
