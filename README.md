@@ -1,2 +1,16 @@
 # Design-of-Three-Phase-500kVA-6600V-400V-50hz-Distribution-Transformer-and-implementation-on-AUTOCAD
-This project focuses on the theoretical and mechanical design of a three-phase 500 kVA distribution transformer (6600V/400V, 50 Hz). The work involves detailed manual calculations for the core, HV/LV windings, and tank design, followed by the schematic and physical layout implementation in AutoCAD. 
+This project focuses on the theoretical and mechanical design of a three-phase 500 kVA core-type distribution transformer rated for 6600V/400V at 50 Hz. The objective was to carry out detailed manual calculations for the design of the transformer’s core, HV and LV windings, and tank, followed by the schematic and physical layout implementation in AutoCAD.
+For reference, I am attaching a written file for complete theoretical design caluclations (core, window, yoke, overall dimensions, LV winding, HV winding and tank designs).
+I am also attaching the AUTOCAD file as well as the final drawing sheet and the project assesment. The scale of 1:5 is considered for the drawing to fit the layout in the ISO A2 drawing sheet.
+
+The design process began with the calculation of volt per turn (output coefficient k is assumed as 0.45). The design is followed by the calculation of the two-stepped core parameters, where the flux density and design constants were assumed, and the core dimensions (width of largest stamping and diameter of circumscribing circle) were derived.
+
+After the core design, the yoke dimensions (height and width of yoke) as well as overall dimensions (overall height and width were calculated).
+
+The most challenging part was winding design. For the LV and HV winding design, I had to do iterative design for selection of conductor based on the standard conductor sizes. 
+Since multiple standard conductor dimensions from IS:1891-1962 (Table 17.1) can correspond to the same cross-sectional area, each possible option was evaluated carefully. For example, if the calculated area of LV winding conductor is 100 mm², a required area of 100 mm² could correspond to a 10 mm width and 10 mm thick conductor. It could also mean a 20 mm width and 5 mm thick conductor. Although both satisfy the electrical requirement, mechanical factors such as radial depth for both LV and HV winding and maintaining a minimum window clearance between 6 mm and 20 mm were considered.
+There were several standard conductor thickness and width for the same area. All the sizes were considered. Through this iterative adjustment and comparison, the most suitable conductor dimensions were selected to achieve a balance between mechanical feasibility and design constraints.
+
+The mechanical design was extended up to the transformer tank. Based on the core and winding dimensions, the tank dimensions were derived, ensuring sufficient space for clearances and insulation while keeping the design compact. The entire design was then transferred into AutoCAD, resulting in schematic and physical layout drawings that reflect the theoretical calculations.
+
+The outcome of the project is a comprehensive set of design calculations and AutoCAD layouts that define the core, winding, and tank dimensions of a 500 kVA distribution transformer. While the project does not include performance estimation such as losses, efficiency, or thermal design, it lays the groundwork for such future extensions. Potential future improvements include the calculation of efficiency, voltage regulation, and thermal performance, as well as the validation of the design through simulation.
